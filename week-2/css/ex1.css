@@ -1,0 +1,26 @@
+/* using combination of selectors */
+.part1 h2 {
+    color: red;
+}
+
+/* using id selector with display inline */
+#white_font_black_bg {
+    color: white;
+    background-color: black;
+    display: inline;
+}
+
+/* using class selector and by default selector display behaviour is block */
+.darkred_bg {
+    background-color: darkred;
+}
+
+/* using class selector on multiple elements*/
+.part2 {
+    color: green;
+}
+
+/* Selects all <p> elements where the parent has a class name 'part4' */
+.part4 > p {
+    color: green;
+}
