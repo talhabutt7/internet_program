@@ -1,6 +1,14 @@
-/* using flexbox properties -- by default flex direction is row */
+/* using flexbox properties for excercise 2 -- by default flex direction is row */
 .d-flex {
     display: flex;
+}
+
+/* using display block practice for exercise 3 */
+section {
+ display: block;
+ width: 50%;
+ float: left;
+
 }
 
 /* adding background color for first column */
@@ -13,7 +21,7 @@
     background-color: yellow;
 }
 
-/* padding added to both coloumns */
+/* padding added to both coloumns for exercise 2 */
 .padding_10px {
     padding: 10px;
 }
