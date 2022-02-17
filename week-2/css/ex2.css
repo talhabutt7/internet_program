@@ -1,0 +1,19 @@
+/* using flexbox properties -- by default flex direction is row */
+.d-flex {
+    display: flex;
+}
+
+/* adding background color for first column */
+.csym019 {
+    background-color: #add8e6;
+}
+
+/* adding background color for second column */
+.csym015 {
+    background-color: yellow;
+}
+
+/* padding added to both coloumns */
+.padding_10px {
+    padding: 10px;
+}
