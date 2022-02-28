@@ -1,6 +1,9 @@
 function headingChange(){
-    var element = document.getElementById('main_heading');
-    element.firstChild.nodeValue = 'JS HEADING'
+    var element1 = document.getElementById('main_heading');
+    element1.firstChild.nodeValue = 'JS HEADING'
+
+    var element2 = document.getElementById('paragraph');
+    element2.firstChild.nodeValue = 'This is new updated paragragh. Thanks to JS. :)'
 }
 
 document.addEventListener('DOMContentLoaded', headingChange)
