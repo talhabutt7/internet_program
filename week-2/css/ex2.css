@@ -6,7 +6,7 @@
 /* using display block practice for exercise 3 */
 section {
  display: block;
- width: 50%;
+ width: 45%;
  float: left;
 
 }
@@ -14,11 +14,15 @@ section {
 /* adding background color for first column */
 .csym019 {
     background-color: #add8e6;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 /* adding background color for second column */
 .csym015 {
     background-color: yellow;
+    border-radius: 20px;
+    margin: 10px;
 }
 
 /* padding added to both coloumns for exercise 2 */
