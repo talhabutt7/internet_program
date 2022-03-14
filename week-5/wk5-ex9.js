@@ -22,20 +22,23 @@ function moveRight() {
     element.style.left = goLeft + 1 + 'px';
    }
 
+var interval = 0;
 function downKey(event) {
+    clearInterval(interval);
     if (event.keyCode == 37) {
-        setInterval(moveLeft, 10);
+        interval = setInterval(moveLeft, 10);
     }
     if (event.keyCode == 38) {
-        setInterval(moveUp, 10);
+        interval =setInterval(moveUp, 10);
     }
     if (event.keyCode == 40) {
-        setInterval(moveDown, 10);
+        interval =setInterval(moveDown, 10);
     }
     if (event.keyCode == 39) {
-        setInterval(moveRight, 10);
+        interval =setInterval(moveRight, 10);
     }
    }
+   
    
 function onLoad() {
     document.addEventListener('keydown', downKey);
